@@ -1,8 +1,11 @@
 # Praktikum 1: HTML Dasar
 
-Nama: Muhammad Arkhamullah Rifai Asshidiq  
+Nama: Muhammad Arkhamullah Rifai Asshidiq 
+
 NIM: 312410545
+
 Kelas:TI.24.A5
+
 Mata Kuliah: Pemrograman Web 1
 
 ## Tujuan Praktikum
