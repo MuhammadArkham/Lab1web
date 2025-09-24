@@ -1,9 +1,9 @@
 # Praktikum 1: HTML Dasar
 
-Nama: [Isi dengan nama Anda]  
-NIM: [Isi dengan NIM Anda]  
-Kelas: [Isi dengan kelas Anda]  
-Mata Kuliah: Pemrograman Web
+Nama: Muhammad Arkhamullah Rifai Asshidiq  
+NIM: 312410545
+Kelas:TI.24.A5
+Mata Kuliah: Pemrograman Web 1
 
 ## Tujuan Praktikum
 1. Mahasiswa mampu memahami struktur dasar HTML
