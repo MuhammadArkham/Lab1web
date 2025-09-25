@@ -1,220 +1,79 @@
-# Praktikum 1: HTML Dasar
+# Lab1Web
 
-Nama: Muhammad Arkhamullah Rifai Asshidiq 
+Nama : Muhammad Arkhamullah Rifai Asshidiq
 
-NIM: 312410545
+Nim : 312410545
 
-Kelas:TI.24.A5
+Kelas : TI.24.A.5
 
-Mata Kuliah: Pemrograman Web 1
+## Pertanyaan
 
-## Tujuan Praktikum
-1. Mahasiswa mampu memahami struktur dasar HTML
-2. Mahasiswa mampu memahami Tag-tag dasar HTML  
-3. Mahasiswa mampu membuat dokumen HTML
+1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
 
-## Langkah-langkah Praktikum
+## Jawaban
 
-### 1. Persiapan
-- Membuka VSCode sebagai text editor
-- Menyiapkan browser untuk testing (Mozilla Firefox/Chrome)
+1. ini menggunakan tag `<hr>`
 
-### 2. Membuat Struktur Dasar HTML
+![gambar](ss1.jpeg)
 
-Membuat file `lab1_tag_dasar.html` dengan struktur dasar HTML:
+dan ini menggunakan tag `<br>`
 
-```html
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag HTML Dasar</title>
-</head>
-<body>
-    <!-- Konten HTML -->
-</body>
-</html>
-```
+![gambar](ss2.jpeg)
 
-**Screenshot:** *[Lampirkan screenshot struktur dasar HTML di VSCode]*
+2. ini meggunakan `align="center"`
 
-### 3. Membuat Paragraf
+![gambar](ss1.jpeg)
 
-Menambahkan dua paragraf dengan menggunakan tag `<p>`:
+dan ini menggunakan `align="justify"`
 
-```html
-<!-- Ini adalah paragraf pertama -->
-<p align="center">Kami sedang belajar HTML dasar...</p>
+![gambar](ss3.jpeg)
 
-<!-- Ini adalah paragraf kedua -->
-<p align="right">Ini merupakan sebuah paragraf...</p>
-```
+3. Ini sebelum saya tambahkan tag `<mark>, <i>, dan <b>`
+   
+![gambar](ss1.jpeg)
 
-**Screenshot:** *[Lampirkan screenshot hasil paragraf di browser]*
+Ini sesudah saya tambahkan tag `<mark>, <i>, dan <b>`
 
-**Hasil:**
-- Paragraf pertama rata tengah
-- Paragraf kedua rata kanan
-- Teks terbungkus dalam elemen paragraf
+![gambar](ss4.jpeg)
 
-### 4. Menambahkan Judul (Heading)
+Itu adalah beberapa perubahan yang saya lakukan dan ketika saya melakukan tidak terjadi error atau kesalahan.
 
-Menambahkan heading dengan tag `<h1>`, `<h2>`, dan `<h3>`:
+## Pertanyaan
 
-```html
-<h1>Belajar Dasar HTML</h1>
-<h2>Paragraf pada HTML</h2>
-<h3>Menambahkan Gambar</h3>
-```
+2. Apa perbedaan dari tag `<p>` dengan tag `<br>`, berikan penjelasannya!
 
-**Screenshot:** *[Lampirkan screenshot hasil heading di browser]*
+## Jawaban
 
-**Hasil:**
-- H1 berukuran paling besar
-- H2 berukuran sedang
-- H3 berukuran lebih kecil
-- Hierarchy yang jelas terlihat
+Kalau `<p>` itu untuk membuat sebuah paragraf yang otomatis ada sebuah jarak atas dan bawahnya, sedangkan `<br>` dipakai untuk pindah ke baris selanjutnya dan tanpa jarak tambahan.
 
-### 5. Memformat Teks
+## Pertanyaan
 
-Menggunakan berbagai tag pemformatan teks:
+3. Apa perbedaan atribut `title` dan `alt` pada tag `<img>`, berikan penjelasannya!
 
-```html
-<b>Bold text</b>
-<i>Italic text</i>
-<strong>Important text</strong>
-<em>Emphasized text</em>
-<mark>Marked text</mark>
-<small>Smaller text</small>
-<del>Deleted text</del>
-<ins>Inserted text</ins>
-<sub>Subscript</sub>
-<sup>Superscript</sup>
-```
+## Jawaban
 
-**Screenshot:** *[Lampirkan screenshot hasil pemformatan teks]*
+- Atribut `alt` digunakan untuk memberi teks alternatif jika gambar tidak bisa ditampilkan (misalnya ketika jaringan/koneksi ktia lemot atau bisa jadi juga gambarnya rusak) jadi kalau gambar tidak muncul, yang tampil tulisannya saja.
 
-**Hasil:**
-- Berbagai gaya teks berhasil diterapkan
-- Setiap tag memiliki tampilan yang berbeda
+- Sedangkan Atribut `title` digunakan untuk memberi informasi tambahan saja, jadi semisal kita arahkan kursor ke gambar maka akan muncul judul/title tersebut.
 
-### 6. Menyisipkan Gambar
+## Pertanyaan
 
-Menambahkan gambar dengan tag `<img>`:
+4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
 
-```html
-<img src="Logo_UPB.png" width="200" alt="Logo Universitas Pelita Bangsa" title="Logo Universitas Pelita Bangsa">
-```
+## Jawaban
 
-**Screenshot:** *[Lampirkan screenshot hasil gambar di browser]*
+Jika ingin gambar menjadi proporsional, kita bisa mengisi salah satu atribut saja (width atau height) karena jika kita mengisi salah satu (misalnya width) maka browser otomatis menyesuaikan (height) sesuai ukurannya juga. Dan jika kita isi dua-duanya sekaligus, memungkinkan gambar menjadi gepeng atau ketarik kalau angkanya tidak sesuai rasio.
 
-**Hasil:**
-- Gambar berhasil ditampilkan
-- Ukuran gambar disesuaikan dengan atribut width
-- Alt dan title berfungsi sebagai deskripsi
+## Pertanyaan
 
-### 7. Menambahkan Hyperlink
+5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
 
-Membuat navigasi dengan hyperlink:
+## Jawaban
 
-```html
-<nav>
-    <a href="lab1_tag_dasar.html">Dasar HTML</a>
-    <a href="lab1_halaman2.html">Halaman 2</a>
-    <a href="http://www.google.com">Halaman Web Eksternal Google</a>
-</nav>
-```
+- _blank = Saat klik linknya, halaman akan terbuka di tab/jendela baru dan halaman lama tetap terbuka, kemudian jadi punya dua tab.
 
-**Screenshot:** *[Lampirkan screenshot hasil hyperlink]*
+- _self = Saat klik linknya, halaman akan terbuka tetapi tetap di tab/jendela yang sama.
+ 
+- _parent = Karena halaman tidak beradaa di dalam frame/inframe, jadi hasilnya sama dengan _self.
 
-**Hasil:**
-- Link internal dan eksternal berfungsi
-- Navigasi antar halaman berhasil
-
-### 8. Membuat Halaman Kedua
-
-Membuat file `lab1_halaman2.html` dengan konten berbeda dan link balik ke halaman utama.
-
-**Screenshot:** *[Lampirkan screenshot halaman kedua]*
-
-## Validasi HTML
-
-Melakukan validasi HTML menggunakan https://validator.w3.org
-
-**Screenshot:** *[Lampirkan screenshot hasil validasi]*
-
-## Jawaban Pertanyaan
-
-### 1. Perubahan kode dan error handling
-Ketika terjadi kesalahan penulisan tag HTML:
-- Browser akan tetap berusaha menampilkan konten
-- Tag yang tidak tertutup mungkin akan mempengaruhi elemen lainnya
-- HTML bersifat "forgiving" - tidak akan menampilkan error seperti bahasa pemrograman lain
-- Validator W3C dapat membantu mendeteksi kesalahan
-
-### 2. Perbedaan tag `<p>` dan `<br>`
-- **Tag `<p>`**: 
-  - Membuat paragraf baru dengan jarak (margin) atas dan bawah
-  - Block-level element
-  - Memiliki tag pembuka dan penutup
-  - Digunakan untuk membungkus kumpulan kalimat
-  
-- **Tag `<br>`**:
-  - Hanya membuat line break (pindah baris)
-  - Inline element
-  - Self-closing tag (tidak memiliki tag penutup)
-  - Digunakan untuk pindah baris tanpa membuat paragraf baru
-
-### 3. Perbedaan atribut `title` dan `alt` pada tag `<img>`
-- **Atribut `alt`**:
-  - Alternatif teks yang ditampilkan jika gambar gagal dimuat
-  - Penting untuk accessibility (screen reader)
-  - Wajib ada untuk validasi HTML
-  
-- **Atribut `title`**:
-  - Tooltip yang muncul saat mouse hover di atas gambar
-  - Memberikan informasi tambahan
-  - Bersifat opsional
-
-### 4. Pengaturan ukuran gambar dengan width dan height
-**Sebaiknya tidak mengisi keduanya secara bersamaan** kecuali Anda yakin dengan rasio yang tepat.
-
-**Alasan:**
-- Jika mengisi keduanya dengan nilai yang tidak proporsional, gambar akan terdistorsi
-- **Rekomendasi**: Gunakan hanya `width` ATAU `height`, browser akan otomatis menyesuaikan yang lain secara proporsional
-- Jika harus menggunakan keduanya, pastikan rasio sesuai dengan gambar asli
-
-### 5. Atribut `target` pada link
-
-```html
-<a href="url" target="_blank">_blank</a>   <!-- Buka di tab/window baru -->
-<a href="url" target="_self">_self</a>     <!-- Buka di tab yang sama (default) -->
-<a href="url" target="_parent">_parent</a> <!-- Buka di parent frame -->
-<a href="url" target="_top">_top</a>       <!-- Buka di window paling atas -->
-```
-
-**Hasil pengujian:**
-- `_blank`: Membuka link di tab atau window baru
-- `_self`: Membuka link di tab yang sama (perilaku default)
-- `_parent`: Berguna dalam frame, membuka di parent frame
-- `_top`: Berguna dalam frame, membuka di window paling atas
-
-## Kesimpulan
-
-Praktikum ini berhasil mengajarkan:
-1. Struktur dasar dokumen HTML
-2. Penggunaan berbagai tag HTML dasar
-3. Pemformatan teks dan pengaturan layout sederhana
-4. Penyisipan gambar dan hyperlink
-5. Validasi dokumen HTML
-
-HTML sebagai markup language sangat fleksibel dan mudah dipelajari, menjadi fondasi penting untuk pengembangan web.
-
-## File yang Dibuat
-1. `lab1_tag_dasar.html` - Halaman utama dengan berbagai contoh tag HTML
-2. `lab1_halaman2.html` - Halaman kedua untuk demonstrasi hyperlink
-3. `README.md` - Dokumentasi praktikum ini
-
----
-**Catatan**: Pastikan untuk melakukan screenshot pada setiap langkah dan menyimpannya dalam folder `screenshots/` di repository ini.
+- _top = Ini sama seperti _parent, jadi kalau halamannya bukan bagian dari frame/inframe, efeknya sama dengan _self. 
