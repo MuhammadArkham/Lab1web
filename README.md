@@ -6,35 +6,9 @@ Nim : 312410545
 
 Kelas : TI.24.A.5
 
-## Pertanyaan
+![Foto](<img width="522" height="145" alt="image" src="https://github.com/user-attachments/assets/6de5a6e5-9114-4aac-9456-4a327a408d6b" />
+)
 
-1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
-
-## Jawaban
-
-1. ini menggunakan tag `<hr>`
-
-![gambar](ss1.jpeg)
-
-dan ini menggunakan tag `<br>`
-
-![gambar](ss2.jpeg)
-
-2. ini meggunakan `align="center"`
-
-![gambar](ss1.jpeg)
-
-dan ini menggunakan `align="justify"`
-
-![gambar](ss3.jpeg)
-
-3. Ini sebelum saya tambahkan tag `<mark>, <i>, dan <b>`
-   
-![gambar](ss1.jpeg)
-
-Ini sesudah saya tambahkan tag `<mark>, <i>, dan <b>`
-
-![gambar](ss4.jpeg)
 
 Itu adalah beberapa perubahan yang saya lakukan dan ketika saya melakukan tidak terjadi error atau kesalahan.
 
