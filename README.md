@@ -7,8 +7,11 @@ Nim : 312410545
 Kelas : TI.24.A.5
 
 ![Foto](https://github.com/MuhammadArkham/Foto/blob/main/Screenshot%202025-09-24%20193225.png?raw=true)
-
-
+![Foto](https://github.com/MuhammadArkham/Foto/blob/main/Screenshot%202025-09-24%20201538%20(1).png?raw=true)
+![Foto](https://github.com/MuhammadArkham/Foto/blob/main/Screenshot%202025-09-24%20202117.png?raw=true)
+![Foto](https://github.com/MuhammadArkham/Foto/blob/main/Screenshot%202025-09-24%20202752.png?raw=true)
+![Foto](https://github.com/MuhammadArkham/Foto/blob/main/Screenshot%202025-09-24%20202904.png?raw=true)
+![Foto](https://github.com/MuhammadArkham/Foto/blob/main/Screenshot%202025-09-24%20202752.png?raw=true)
 Itu adalah beberapa perubahan yang saya lakukan dan ketika saya melakukan tidak terjadi error atau kesalahan.
 
 ## Pertanyaan
