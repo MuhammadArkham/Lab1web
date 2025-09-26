@@ -6,8 +6,7 @@ Nim : 312410545
 
 Kelas : TI.24.A.5
 
-![Foto](<img width="522" height="145" alt="image" src="https://github.com/user-attachments/assets/6de5a6e5-9114-4aac-9456-4a327a408d6b" />
-)
+![Foto](https://github.com/MuhammadArkham/Foto/blob/main/Screenshot%202025-09-24%20193225.png?raw=true)
 
 
 Itu adalah beberapa perubahan yang saya lakukan dan ketika saya melakukan tidak terjadi error atau kesalahan.
